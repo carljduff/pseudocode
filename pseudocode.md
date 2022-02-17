@@ -3,9 +3,10 @@
 Materials Needed:
 User, Cereal, Milk, Bowl, Spoon.
 
-1. User needs to choose choice of cereal and choice of milk.
+1. User needs to choose choice of cereal, choice of milk, and size of Bowl:
 * Choice of Cereal: trix, cherrios, appleJacks
 * Choice of Milk: skim, onePercent, twoPercent
+* Size of Bowl: smallBowl, largeBowl
 
 2. Gather materials:
 * Getting the Milk will require opening the fridge.
@@ -22,41 +23,36 @@ User, Cereal, Milk, Bowl, Spoon.
 5. User enjoys. 
 
 <hr>
+FUNCTION open(fridge, cerealCabinet, bowlCabinet, utensilDrawer)
 
-FUNCTION: cerealChoice(x, y)
+FUNCTION close(fridge, cerealCabinet, bowlCabinet, utensilDrawer)
+
+FUNCTION cerealChoice()
     user selects choice of cereal
-        return choice
-
-FUNCTION: milkChoice(x, y)
+        
+FUNCTION milkChoice()
     user selects choice of milk
-    return milk
-
-FUNCTION: addCereal 
+    
+FUNCTION addCereal 
     IF cereal < 1 cup
         add more cereal to bowl until cereal is 1 cup
+    ELSE continue
 
-FUNCTION: addMilk
+FUNCTION addMilk
     IF milk < 2 cups
         add more milk to bowl until milk is 2 cups
+    ELSE continue
+
+
+
+
+
+
+
 
 <hr>
 
-function cerealChoice() {
-    
-}
 
-function milkChoice() {
-    
-}
-
-function openFridge() {
-
-}
-
-
-function(addCereal) {
-
-}
 
 
 
