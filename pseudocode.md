@@ -23,36 +23,72 @@ User, Cereal, Milk, Bowl, Spoon.
 5. User enjoys. 
 
 <hr>
-FUNCTION open(fridge, cerealCabinet, bowlCabinet, utensilDrawer)
 
-FUNCTION close(fridge, cerealCabinet, bowlCabinet, utensilDrawer)
+FUNCTION chooseCereal(choice)
+* user selects choice of cereal
 
-FUNCTION cerealChoice()
-    user selects choice of cereal
-        
-FUNCTION milkChoice()
-    user selects choice of milk
-    
-FUNCTION addCereal 
-    IF cereal < 1 cup
-        add more cereal to bowl until cereal is 1 cup
-    ELSE continue
+<br>
 
-FUNCTION addMilk
-    IF milk < 2 cups
-        add more milk to bowl until milk is 2 cups
-    ELSE continue
+FUNCTION chooseMilk(choice)
+* user selects choice of milk
 
+<br>
 
+FUNCTION bowlSize(size)
+* user selects size of bowl
 
+<br>
 
+FUNCTION openDoor(chooseDoor)
+* user opens appropriate door to gather supplies
 
+<br>
 
+FUNCTION closeDoor(chooseDoor)
+* user closes door that was opened
 
+<br>
+
+FUNCTION addCerealToBowl
+* IF cereal < 2 cups
+* add more cereal to bowl until cereal is 2 cups
+* ELSE continue
+
+<br>
+
+FUNCTION addMilkToBowl
+* IF milk < 1 cup
+* add more milk to bowl until milk is 1 cup
+* ELSE continue
+
+<br>
+
+FUNCTION enjoy
+* user eats cereal
 
 <hr>
 
+## START
 
+openDoor('cerealCabinet'); <br>
+chooseCereal('appleJacks'); <br>
+closeDoor('cerealCabinet'); <br>
+<br>
+openDoor('fridge'); <br>
+chooseMilk('onePercent'); <br>
+closeDoor('fridge') <br>
+<br>
+openDoor('bowlCabinet'); <br>
+bowlSize('smallBowl'); <br>
+closeDoor('bowlCabinet') <br>
+<br>
+addCerealToBowl(); <br>
+addMilkToBowl(); <br>
+enjoy(); <br>
+
+## End
+
+<hr>
 
 
 
