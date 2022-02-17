@@ -121,7 +121,7 @@ closeDoor('bowlCabinet') <br>
 <br>
 openDoor('utensilDrawer'); <br>
 getUtensil('spoon'); <br>
-closeDoor('bowlCabinet') <br>
+closeDoor('utensilDrawer') <br>
 <br>
 addCerealToBowl(); <br>
 addMilkToBowl(); <br>
