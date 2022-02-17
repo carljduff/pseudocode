@@ -1,8 +1,5 @@
 # Making a Bowl of Cereal
 
-Materials Needed:
-User, Cereal, Milk, Bowl, Spoon.
-
 1. User needs to choose choice of cereal, choice of milk, and size of Bowl:
 * Choice of Cereal: trix, cherrios, appleJacks
 * Choice of Milk: skim, onePercent, twoPercent
@@ -21,6 +18,11 @@ User, Cereal, Milk, Bowl, Spoon.
 * 1 cup of milk is required.
 
 5. User enjoys. 
+
+<hr>
+
+# INIT: Variables 
+* Milk, Cereal, Bowl, Spoon
 
 <hr>
 
@@ -96,7 +98,6 @@ User, Cereal, Milk, Bowl, Spoon.
 
 ## START
 
-CALL:
 openDoor('cerealCabinet'); <br>
 chooseCereal('appleJacks'); <br>
 closeDoor('cerealCabinet'); <br>
