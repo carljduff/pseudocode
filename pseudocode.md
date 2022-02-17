@@ -1,31 +1,67 @@
-<hr>
 # Making a Bowl of Cereal
-<hr>
 
 Materials Needed:
-Cereal, Milk, Bowl, Spoon, Measuring Cup
+User, Cereal, Milk, Bowl, Spoon.
 
-1. You need to choose your choice of cereal, choice of milk, and size of bowl:
+1. User needs to choose choice of cereal and choice of milk.
 * Choice of Cereal: trix, cherrios, appleJacks
 * Choice of Milk: skim, onePercent, twoPercent
-* Size of bowl: largeBowl, smallBowl
 
 2. Gather materials:
 * Getting the Milk will require opening the fridge.
 * Getting the cereal will require opening the cerealCabinet.
 * Getting the bowl will require opening the bowlCabinet.
-* Getting the spoon and measuring cup will require opening the utensilDrawer.
+* Getting the spoon will require opening the utensilDrawer.
 
-3. Add Cereal to the bowl by measuring cups:
-* smallBowl gets 1 cup
-* largeBowl gets 2 cups
+3. User adds Cereal to the bowl:
+* 2 cups of cereal are required.
 
-4. Add Milk to the bowl:
-* smallBowl gets 1 cup
-* largeBowl gets 2 cups
+4. User adds Milk to the bowl:
+* 1 cup of milk is required.
 
-5. Enjoy. 
+5. User enjoys. 
 
 <hr>
+
+FUNCTION: cerealChoice(x, y)
+    user selects choice of cereal
+        return choice
+
+FUNCTION: milkChoice(x, y)
+    user selects choice of milk
+    return milk
+
+FUNCTION: addCereal 
+    IF cereal < 1 cup
+        add more cereal to bowl until cereal is 1 cup
+
+FUNCTION: addMilk
+    IF milk < 2 cups
+        add more milk to bowl until milk is 2 cups
+
+<hr>
+
+function cerealChoice() {
+    
+}
+
+function milkChoice() {
+    
+}
+
+function openFridge() {
+
+}
+
+
+function(addCereal) {
+
+}
+
+
+
+    
+
+
 
 
