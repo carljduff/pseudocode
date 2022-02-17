@@ -24,52 +24,79 @@ User, Cereal, Milk, Bowl, Spoon.
 
 <hr>
 
-FUNCTION chooseCereal(choice)
-* user selects choice of cereal
+**FUNCTION** chooseCereal(choice)
+* user selects choice of cereal 
+<br>
+
+**ENDFUNCTION**
 
 <br>
 
-FUNCTION chooseMilk(choice)
+**FUNCTION** chooseMilk(choice)
 * user selects choice of milk
+<br>
+
+**ENDFUNCTION**
 
 <br>
 
-FUNCTION bowlSize(size)
+**FUNCTION** bowlSize(size)
 * user selects size of bowl
+<br>
+
+**ENDFUNCTION**
 
 <br>
 
-FUNCTION openDoor(chooseDoor)
+**FUNCTION** openDoor(chooseDoor)
 * user opens appropriate door to gather supplies
+<br>
+
+**ENDFUNCTION**
 
 <br>
 
-FUNCTION closeDoor(chooseDoor)
+**FUNCTION** closeDoor(chooseDoor)
 * user closes door that was opened
+<br>
+
+**ENDFUNCTION**
 
 <br>
 
-FUNCTION addCerealToBowl
-* IF cereal < 2 cups
+**FUNCTION** addCerealToBowl
+* **IF** cereal < 2 cups
 * add more cereal to bowl until cereal is 2 cups
-* ELSE continue
+* **ELSE** continue 
+* **ENDIF**
+<br>
+
+**ENDFUNCTION**
 
 <br>
 
-FUNCTION addMilkToBowl
-* IF milk < 1 cup
+**FUNCTION** addMilkToBowl
+* **IF** milk < 1 cup
 * add more milk to bowl until milk is 1 cup
-* ELSE continue
+* **ELSE** continue
+* **ENDIF**
+<br>
+
+**ENDFUNCTION**
 
 <br>
 
-FUNCTION enjoy
+**FUNCTION** enjoy
 * user eats cereal
+<br>
+
+**ENDFUNCTION**
 
 <hr>
 
 ## START
 
+CALL:
 openDoor('cerealCabinet'); <br>
 chooseCereal('appleJacks'); <br>
 closeDoor('cerealCabinet'); <br>
