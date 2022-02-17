@@ -1,8 +1,5 @@
 # Making a Bowl of Cereal
 
-Materials Needed:
-User, Cereal, Milk, Bowl, Spoon.
-
 1. User needs to choose choice of cereal, choice of milk, and size of Bowl:
 * Choice of Cereal: trix, cherrios, appleJacks
 * Choice of Milk: skim, onePercent, twoPercent
@@ -23,36 +20,103 @@ User, Cereal, Milk, Bowl, Spoon.
 5. User enjoys. 
 
 <hr>
-FUNCTION open(fridge, cerealCabinet, bowlCabinet, utensilDrawer)
 
-FUNCTION close(fridge, cerealCabinet, bowlCabinet, utensilDrawer)
-
-FUNCTION cerealChoice()
-    user selects choice of cereal
-        
-FUNCTION milkChoice()
-    user selects choice of milk
-    
-FUNCTION addCereal 
-    IF cereal < 1 cup
-        add more cereal to bowl until cereal is 1 cup
-    ELSE continue
-
-FUNCTION addMilk
-    IF milk < 2 cups
-        add more milk to bowl until milk is 2 cups
-    ELSE continue
-
-
-
-
-
-
-
+# INIT: Variables 
+* Milk, Cereal, Bowl, Spoon
 
 <hr>
 
+**FUNCTION** chooseCereal(choice)
+* user selects choice of cereal 
+<br>
 
+**ENDFUNCTION**
+
+<br>
+
+**FUNCTION** chooseMilk(choice)
+* user selects choice of milk
+<br>
+
+**ENDFUNCTION**
+
+<br>
+
+**FUNCTION** bowlSize(size)
+* user selects size of bowl
+<br>
+
+**ENDFUNCTION**
+
+<br>
+
+**FUNCTION** openDoor(chooseDoor)
+* user opens appropriate door to gather supplies
+<br>
+
+**ENDFUNCTION**
+
+<br>
+
+**FUNCTION** closeDoor(chooseDoor)
+* user closes door that was opened
+<br>
+
+**ENDFUNCTION**
+
+<br>
+
+**FUNCTION** addCerealToBowl
+* **IF** cereal < 2 cups
+* add more cereal to bowl until cereal is 2 cups
+* **ELSE** continue 
+* **ENDIF**
+<br>
+
+**ENDFUNCTION**
+
+<br>
+
+**FUNCTION** addMilkToBowl
+* **IF** milk < 1 cup
+* add more milk to bowl until milk is 1 cup
+* **ELSE** continue
+* **ENDIF**
+<br>
+
+**ENDFUNCTION**
+
+<br>
+
+**FUNCTION** enjoy
+* user eats cereal
+<br>
+
+**ENDFUNCTION**
+
+<hr>
+
+## START
+
+openDoor('cerealCabinet'); <br>
+chooseCereal('appleJacks'); <br>
+closeDoor('cerealCabinet'); <br>
+<br>
+openDoor('fridge'); <br>
+chooseMilk('onePercent'); <br>
+closeDoor('fridge') <br>
+<br>
+openDoor('bowlCabinet'); <br>
+bowlSize('smallBowl'); <br>
+closeDoor('bowlCabinet') <br>
+<br>
+addCerealToBowl(); <br>
+addMilkToBowl(); <br>
+enjoy(); <br>
+
+## End
+
+<hr>
 
 
 
