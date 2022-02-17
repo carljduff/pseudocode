@@ -26,6 +26,15 @@
 
 <hr>
 
+**FUNCTION** getUtensil(choice)
+* user selects spoon 
+<br>
+
+**ENDFUNCTION**
+
+<br>
+
+
 **FUNCTION** chooseCereal(choice)
 * user selects choice of cereal 
 <br>
@@ -108,6 +117,10 @@ closeDoor('fridge') <br>
 <br>
 openDoor('bowlCabinet'); <br>
 bowlSize('smallBowl'); <br>
+closeDoor('bowlCabinet') <br>
+<br>
+openDoor('utensilDrawer'); <br>
+getUtensil('spoon'); <br>
 closeDoor('bowlCabinet') <br>
 <br>
 addCerealToBowl(); <br>
