@@ -107,21 +107,21 @@
 
 ## START
 
-openDoor('cerealCabinet'); <br>
-chooseCereal('appleJacks'); <br>
-closeDoor('cerealCabinet'); <br>
+openDoor(cerealCabinet); <br>
+chooseCereal(appleJacks); <br>
+closeDoor(cerealCabinet); <br>
 <br>
-openDoor('fridge'); <br>
-chooseMilk('onePercent'); <br>
-closeDoor('fridge') <br>
+openDoor(fridge); <br>
+chooseMilk(onePercent); <br>
+closeDoor(fridge) <br>
 <br>
-openDoor('bowlCabinet'); <br>
-bowlSize('smallBowl'); <br>
-closeDoor('bowlCabinet') <br>
+openDoor(bowlCabinet); <br>
+bowlSize(smallBowl); <br>
+closeDoor(bowlCabinet) <br>
 <br>
-openDoor('utensilDrawer'); <br>
-getUtensil('spoon'); <br>
-closeDoor('utensilDrawer') <br>
+openDoor(utensilDrawer); <br>
+getUtensil(spoon); <br>
+closeDoor(utensilDrawer) <br>
 <br>
 addCerealToBowl(); <br>
 addMilkToBowl(); <br>
